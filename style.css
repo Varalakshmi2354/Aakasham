@@ -56,11 +56,11 @@ body {
 .main-content h1 {
     font-size: 72px;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .main-content p {
-    font-size: 20px; /* Slightly larger for emphasis */
+    font-size: 20px;
     margin: 20px 0;
 }
 
@@ -80,25 +80,25 @@ body {
 
 .quiz {
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust position to truly center */
-    background: rgba(0, 0, 0, 0.8); /* Dark background for the quiz */
-    color: white; /* Text color to contrast the dark background */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: rgba(0, 0, 0, 0.8); 
+    color: white; 
     padding: 30px;
     border-radius: 15px;
-    width: 400px; /* Width of the quiz box */
+    width: 400px; 
     text-align: left;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
 }
 
 
 
 .quiz-question {
-    margin: 15px 0; /* Increased margin */
-    padding: 10px; /* Added padding for spacing */
+    margin: 15px 0; 
+    padding: 10px; 
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white for question background */
+    background: rgba(255, 255, 255, 0.1); 
 }
 
 
