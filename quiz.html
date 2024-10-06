@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Action Quiz</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">SDG 13</div>
+            <div>
+                <a href="#learn">Learn</a>
+                <a href="#impact">Impact</a>
+                <a href="#actions">Take Action</a>
+                <a href="#resources">Resources</a>
+                <a href="#articles">Articles</a>
+            </div>
+            <a class="explore-btn" href="index.html">Back to Home</a>
+        </div>
+        
+        <div class="quiz">
+            <h2>Climate Action Quiz</h2>
+            <p>Test your knowledge on climate action!</p>
+            <div class="quiz-questions">
+                <div class="quiz-question">
+                    <h3>What is the main cause of climate change?</h3>
+                    <input type="radio" id="q1-a1" name="q1" value="a1">
+                    <label for="q1-a1">Greenhouse gas emissions</label><br>
+                    <input type="radio" id="q1-a2" name="q1" value="a2">
+                    <label for="q1-a2">Deforestation</label><br>
+                    <input type="radio" id="q1-a3" name="q1" value="a3">
+                    <label for="q1-a3">Pollution</label>
+                </div>
+                <div class="quiz-question">
+                    <h3>What is the most effective way to reduce carbon footprint?</h3>
+                    <input type="radio" id="q2-a1" name="q2" value="a1">
+                    <label for="q2-a1">Using public transport</label><br>
+                    <input type="radio" id="q2-a2" name="q2" value="a2">
+                    <label for="q2-a2">Reducing meat consumption</label><br>
+                    <input type="radio" id="q2-a3" name="q2" value="a3">
+                    <label for="q2-a3">Using energy-efficient appliances</label>
+                </div>
+                <!-- Add more questions here -->
+            </div>
+            <button class="submit-btn">Submit</button>
+            <div class="quiz-results">
+                <p>Your score: <span id="score">0</span>/2</p>
+                <p>Correct answers: <span id="correct-answers"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
