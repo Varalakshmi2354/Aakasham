@@ -20,7 +20,13 @@ body {
     justify-content: space-between;
     padding: 20px 50px;
     align-items: center;
-    z-index: 2; /* Navbar on top of other content */
+    z-index: 10; /* Ensure this is higher than other elements */
+    position: relative; /* Add position relative */
+}
+
+
+.explore-btn {
+    z-index: 11; /* Ensure this is higher than the navbar */
 }
 
 .navbar a {
@@ -144,3 +150,4 @@ section img {
     border: none; /* Remove border */
     z-index: 4; /* Make sure iframe is on top when visible */
 }
+
