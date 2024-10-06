@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #7f00ff, #e100ff);
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('https://wallpaperaccess.com/full/1092587.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .explore-btn {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background 0.3s;
+}
+.navbar .explore-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main-content h1 {
+    font-size: 72px;
+    margin: 0;
+}
+.main-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.main-content .explore-btn {
+    background: linear-gradient(135deg, #7f00ff, #e100ff);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.main-content .explore-btn:hover {
+    background: linear-gradient(135deg, #e100ff, #7f00ff);
+}
+.card {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 200px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    color: black;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.card p {
+    font-size: 14px;
+    color: gray;
+}
+.planets {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.planet-card {
+    width: 200px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    color: black;
+}
+.planet-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.planet-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.planet-card p {
+    font-size: 14px;
+    color: gray;
+}
