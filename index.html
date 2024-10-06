@@ -3,29 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClimateTracker: SDG 13 in Action</title>
+    <title>ClimateAction: SDG 13 A gamified experience</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>ClimateTracker: SDG 13 in Action</h1>
-    <p>Explore the impact of climate change through satellite data.</p>
+    <nav>
+        <div class="logo">
+            <h1>ClimateAction</h1>
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="game.html">Game</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button class="sign-up">Sign Up</button>
+    </nav>
 </header>
 
-<div class="container">
-    <h2>Impact of Climate Change</h2>
-    <div class="image-section">
-        <img src="https://images.axios.com/sQFXBhFgis4IYY9oSTkrG_-URaE=/2018/11/10/1541883460626.jpg" alt="fire">
-        <img src="https://th.bing.com/th/id/OIP.Ghu_P008EDBuKbZv6108CgHaE6?w=234&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="glaciers">
+<section class="hero">
+    <div class="hero-content">
+        <h1>ClimateAction</h1>
+        <p>Impacts ofclimate change.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <a href="#" class="video-btn">Watch Video</a>
     </div>
-    
-    <h2>Your Observations</h2>
-    <textarea id="observation" placeholder="Write your observations here..."></textarea>
-    <button onclick="downloadReport()">Download Report</button>
-</div>
+</section>
+
+<footer>
+    <p>© 2024 ClimateAction. All rights reserved.</p>
+</footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
